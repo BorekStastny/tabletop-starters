@@ -59,8 +59,12 @@ function seededRandom(text) {
   };
 }
 
+const SCRYFALL_HEADERS = { 'user-agent': 'tabletop-starters/1.0', accept: 'application/json' }; // Scryfall refuses calls without them
+
 async function newestSet() {
-  const sets = (await (await fetch('https://api.scryfall.com/sets')).json()).data
+  const res = await fetch('https://api.scryfall.com/sets', { headers: SCRYFALL_HEADERS });
+  if (!res.ok) throw new Error(`Scryfall sets: ${res.status}`);
+  const sets = (await res.json()).data
     .filter((s) => ['expansion', 'core'].includes(s.set_type) && s.released_at <= today)
     .sort((a, b) => b.released_at.localeCompare(a.released_at));
   for (const s of sets.slice(0, 12)) {
@@ -123,7 +127,7 @@ async function unknownNames(names) {
   for (let i = 0; i < names.length; i += 75) {
     const res = await fetch('https://api.scryfall.com/cards/collection', {
       method: 'POST',
-      headers: { 'content-type': 'application/json', 'user-agent': 'tabletop-starters/1.0', accept: 'application/json' },
+      headers: { ...SCRYFALL_HEADERS, 'content-type': 'application/json' },
       body: JSON.stringify({ identifiers: names.slice(i, i + 75).map((name) => ({ name })) }),
     });
     if (!res.ok) throw new Error(`Scryfall: ${res.status}`);
