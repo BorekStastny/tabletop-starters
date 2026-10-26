@@ -1,0 +1,217 @@
+{
+ "updated": "2026-10-26",
+ "set": "FRA",
+ "setName": "FRA",
+ "decks": [
+  {
+   "id": "10dbd7bc",
+   "name": "FRA BG 7-0",
+   "colors": "BG",
+   "record": "7-0",
+   "file": "decks/FRA/10dbd7bc.txt"
+  },
+  {
+   "id": "95b1be01",
+   "name": "FRA BG 7-1",
+   "colors": "BG",
+   "record": "7-1",
+   "file": "decks/FRA/95b1be01.txt"
+  },
+  {
+   "id": "61311e18",
+   "name": "FRA BG 7-1",
+   "colors": "BG",
+   "record": "7-1",
+   "file": "decks/FRA/61311e18.txt"
+  },
+  {
+   "id": "37124232",
+   "name": "FRA BR 7-0",
+   "colors": "BR",
+   "record": "7-0",
+   "file": "decks/FRA/37124232.txt"
+  },
+  {
+   "id": "ea01fc81",
+   "name": "FRA BR 7-2",
+   "colors": "BR",
+   "record": "7-2",
+   "file": "decks/FRA/ea01fc81.txt"
+  },
+  {
+   "id": "f40136e3",
+   "name": "FRA BR 7-1",
+   "colors": "BR",
+   "record": "7-1",
+   "file": "decks/FRA/f40136e3.txt"
+  },
+  {
+   "id": "d32e7cdd",
+   "name": "FRA RG 7-1",
+   "colors": "RG",
+   "record": "7-1",
+   "file": "decks/FRA/d32e7cdd.txt"
+  },
+  {
+   "id": "3265fcd6",
+   "name": "FRA RG 7-0",
+   "colors": "RG",
+   "record": "7-0",
+   "file": "decks/FRA/3265fcd6.txt"
+  },
+  {
+   "id": "d4246b0b",
+   "name": "FRA RG 7-0",
+   "colors": "RG",
+   "record": "7-0",
+   "file": "decks/FRA/d4246b0b.txt"
+  },
+  {
+   "id": "57dbfcd2",
+   "name": "FRA UB 7-2",
+   "colors": "UB",
+   "record": "7-2",
+   "file": "decks/FRA/57dbfcd2.txt"
+  },
+  {
+   "id": "93c0ec52",
+   "name": "FRA UB 7-2",
+   "colors": "UB",
+   "record": "7-2",
+   "file": "decks/FRA/93c0ec52.txt"
+  },
+  {
+   "id": "b51e6256",
+   "name": "FRA UB 7-2",
+   "colors": "UB",
+   "record": "7-2",
+   "file": "decks/FRA/b51e6256.txt"
+  },
+  {
+   "id": "2c9e4d9d",
+   "name": "FRA UG 7-1",
+   "colors": "UG",
+   "record": "7-1",
+   "file": "decks/FRA/2c9e4d9d.txt"
+  },
+  {
+   "id": "d52ada44",
+   "name": "FRA UG 7-0",
+   "colors": "UG",
+   "record": "7-0",
+   "file": "decks/FRA/d52ada44.txt"
+  },
+  {
+   "id": "4f4b4aaf",
+   "name": "FRA UG 7-1",
+   "colors": "UG",
+   "record": "7-1",
+   "file": "decks/FRA/4f4b4aaf.txt"
+  },
+  {
+   "id": "1451ff8c",
+   "name": "FRA UR 7-2",
+   "colors": "UR",
+   "record": "7-2",
+   "file": "decks/FRA/1451ff8c.txt"
+  },
+  {
+   "id": "229f04c0",
+   "name": "FRA UR 7-2",
+   "colors": "UR",
+   "record": "7-2",
+   "file": "decks/FRA/229f04c0.txt"
+  },
+  {
+   "id": "7f06908a",
+   "name": "FRA UR 7-1",
+   "colors": "UR",
+   "record": "7-1",
+   "file": "decks/FRA/7f06908a.txt"
+  },
+  {
+   "id": "5b2d49ca",
+   "name": "FRA WB 7-1",
+   "colors": "WB",
+   "record": "7-1",
+   "file": "decks/FRA/5b2d49ca.txt"
+  },
+  {
+   "id": "0dae54af",
+   "name": "FRA WB 7-2",
+   "colors": "WB",
+   "record": "7-2",
+   "file": "decks/FRA/0dae54af.txt"
+  },
+  {
+   "id": "45b9d7de",
+   "name": "FRA WB 7-1",
+   "colors": "WB",
+   "record": "7-1",
+   "file": "decks/FRA/45b9d7de.txt"
+  },
+  {
+   "id": "b5ef77f4",
+   "name": "FRA WG 7-2",
+   "colors": "WG",
+   "record": "7-2",
+   "file": "decks/FRA/b5ef77f4.txt"
+  },
+  {
+   "id": "0193e46d",
+   "name": "FRA WG 7-2",
+   "colors": "WG",
+   "record": "7-2",
+   "file": "decks/FRA/0193e46d.txt"
+  },
+  {
+   "id": "230d780c",
+   "name": "FRA WG 7-2",
+   "colors": "WG",
+   "record": "7-2",
+   "file": "decks/FRA/230d780c.txt"
+  },
+  {
+   "id": "354c6c92",
+   "name": "FRA WR 7-2",
+   "colors": "WR",
+   "record": "7-2",
+   "file": "decks/FRA/354c6c92.txt"
+  },
+  {
+   "id": "1e784361",
+   "name": "FRA WR 7-2",
+   "colors": "WR",
+   "record": "7-2",
+   "file": "decks/FRA/1e784361.txt"
+  },
+  {
+   "id": "6d0a2247",
+   "name": "FRA WR 7-1",
+   "colors": "WR",
+   "record": "7-1",
+   "file": "decks/FRA/6d0a2247.txt"
+  },
+  {
+   "id": "f0e7ab03",
+   "name": "FRA WU 7-2",
+   "colors": "WU",
+   "record": "7-2",
+   "file": "decks/FRA/f0e7ab03.txt"
+  },
+  {
+   "id": "1bbae5ab",
+   "name": "FRA WU 7-1",
+   "colors": "WU",
+   "record": "7-1",
+   "file": "decks/FRA/1bbae5ab.txt"
+  },
+  {
+   "id": "3009792b",
+   "name": "FRA WU 7-2",
+   "colors": "WU",
+   "record": "7-2",
+   "file": "decks/FRA/3009792b.txt"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+About
+Name FRA BG 7-1
+
+Deck
+1 Arcane Amphisbaena
+1 Blessed Ghoul
+1 Carnivorous Cultivator
+1 Compel Brutality
+1 Dark Matter Manipulator
+1 Emergency Phytomedic
+1 Formidable Commons
+1 Gallia, Tragic Host
+1 Hapatra, the Desert Fang
+1 Medic's Kitesail
+1 Multiply by Zero
+1 Primal Witchstalker
+1 Rank Rat
+1 Rewrite Regrets
+1 Room of Refuge
+1 Silence the Echo
+1 Simulacrum Shaper
+1 Sureshot Sower
+1 Tinybones, Pocket Nuisance
+1 Titanbones, Towering Heart
+1 Vigorbloom Vanguard
+1 Vindictive Triumph
+1 Vinelasher Adept
+1 Void Extrapolator
+1 Way of the Wildspeaker
+8 Forest
+1 Plains
+6 Swamp
