@@ -121,19 +121,63 @@ async function readDrafts(file) {
   });
 }
 
-/** Names Scryfall doesn't know (a 17Lands spelling, an Arena-only card): such a deck can't be loaded, so it's dropped. */
-async function unknownNames(names) {
-  const bad = new Set();
-  for (let i = 0; i < names.length; i += 75) {
-    const res = await fetch('https://api.scryfall.com/cards/collection', {
-      method: 'POST',
-      headers: { ...SCRYFALL_HEADERS, 'content-type': 'application/json' },
-      body: JSON.stringify({ identifiers: names.slice(i, i + 75).map((name) => ({ name })) }),
-    });
-    if (!res.ok) throw new Error(`Scryfall: ${res.status}`);
-    for (const nf of (await res.json()).not_found) bad.add(nf.name);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** One Scryfall call, with the pause it asks for between calls and a wait-and-retry on 429. */
+async function scryfall(url, body) {
+  for (let attempt = 0; ; attempt++) {
+    await sleep(120);
+    const res = await fetch(url, body ? { method: 'POST', headers: { ...SCRYFALL_HEADERS, 'content-type': 'application/json' }, body: JSON.stringify(body) } : { headers: SCRYFALL_HEADERS });
+    if (res.status === 429 && attempt < 5) {
+      await sleep(Number(res.headers.get('retry-after') ?? 0) * 1000 || 2000 * 2 ** attempt);
+      continue;
+    }
+    if (!res.ok) throw new Error(`Scryfall ${url}: ${res.status}`);
+    return res.json();
   }
-  return bad;
+}
+
+/** What Scryfall says about the cards seen so far, by name (null: unknown to it). */
+const known = new Map();
+const frontFace = (name) => name.split(' // ')[0];
+
+function remember(c) {
+  const art = (c.image_uris ?? c.card_faces?.[0]?.image_uris)?.art_crop ?? null;
+  const info = { name: c.name, rarity: c.rarity, cmc: c.cmc, land: c.type_line.includes('Land'), colors: c.colors ?? c.card_faces?.[0]?.colors ?? [], art };
+  for (const key of [c.name, frontFace(c.name)]) known.set(key, info);
+}
+
+/** The whole set in a few search pages: rarity, mana value and art for every card a deck is likely to hold. */
+async function loadSet(code) {
+  let url = `https://api.scryfall.com/cards/search?q=${encodeURIComponent(`e:${code} game:arena`)}&unique=cards`;
+  while (url) {
+    const page = await scryfall(url);
+    page.data.forEach(remember);
+    url = page.has_more ? page.next_page : null;
+  }
+  console.error(`${known.size} card names in ${code}`);
+}
+
+/** Names the set didn't have (basic lands, other sets' cards) are asked for by name, and only those. Returns the unknown ones: such a deck can't be loaded. */
+async function lookUp(names) {
+  const todo = [...new Set(names)].filter((n) => !known.has(n));
+  for (let i = 0; i < todo.length; i += 75) {
+    const batch = todo.slice(i, i + 75);
+    const { data, not_found } = await scryfall('https://api.scryfall.com/cards/collection', { identifiers: batch.map((name) => ({ name })) });
+    data.forEach(remember);
+    for (const n of batch) if (!known.has(n)) known.set(n, null);
+  }
+  return names.filter((n) => !known.get(n));
+}
+
+const RARITY = { common: 0, uncommon: 1, rare: 2, special: 2, mythic: 3, bonus: 3 };
+
+/** The deck's showcase cards, best first: main-deck spells in the deck's own colours (not a splash), by rarity, then mana value (a bomb), then name. Only ones with art. */
+function showcase(deck) {
+  const spells = deck.cards.map(([name]) => known.get(name)).filter((c) => c && !c.land && c.art);
+  const onColour = spells.filter((c) => c.colors.every((k) => deck.colors.includes(k)));
+  return (onColour.length ? onColour : spells)
+    .sort((a, b) => RARITY[b.rarity] - RARITY[a.rarity] || b.cmc - a.cmc || a.name.localeCompare(b.name));
 }
 
 const LANDS = ['Plains', 'Island', 'Swamp', 'Mountain', 'Forest'];
@@ -152,6 +196,7 @@ async function main() {
     d.cards.reduce((n, [, k]) => n + k, 0) >= DECK_SIZE_MIN && d.colors.length === 2); // two colours: the balanced, easy-to-play decks
   console.error(`${good.length} qualify`);
 
+  await loadSet(set.code.toLowerCase());
   const rand = seededRandom(`${today}${set.code}`);
   const byPair = new Map();
   for (const d of good) byPair.set(d.colors, [...(byPair.get(d.colors) ?? []), d]);
@@ -162,8 +207,8 @@ async function main() {
     const keep = [];
     for (const d of shuffled) {
       if (keep.length >= PER_PAIR) break;
-      const bad = await unknownNames(d.cards.map(([c]) => c));
-      if (bad.size) console.error(`skip ${d.id}: unknown ${[...bad].join(', ')}`);
+      const bad = await lookUp(d.cards.map(([c]) => c));
+      if (bad.length) console.error(`skip ${d.id}: unknown ${bad.join(', ')}`);
       else keep.push(d);
     }
     picked.push(...keep);
@@ -173,11 +218,15 @@ async function main() {
   await rm(dir, { recursive: true, force: true });
   await mkdir(dir, { recursive: true });
   const index = [];
+  const shown = new Set(); // showcase cards used so far: the tiles shouldn't all show the same bomb
   for (const d of picked) {
     const id = d.id.slice(0, 8);
     const name = `${set.code} ${d.colors} ${d.wins}-${d.losses}`;
     await writeFile(join(dir, `${id}.txt`), deckText(name, d.cards));
-    index.push({ id, name, colors: d.colors, record: `${d.wins}-${d.losses}`, file: `decks/${set.code}/${id}.txt` });
+    const cards = showcase(d);
+    const card = cards.find((c) => !shown.has(c.name)) ?? cards[0];
+    if (card) shown.add(card.name);
+    index.push({ id, name, colors: d.colors, record: `${d.wins}-${d.losses}`, file: `decks/${set.code}/${id}.txt`, art: card?.art ?? null, card: card?.name ?? null });
   }
   await writeFile(join(ROOT, 'index.json'), JSON.stringify({ updated: today, set: set.code, setName: set.name, decks: index }, null, 1) + '\n');
   for (const old of await readdir(join(ROOT, 'decks'))) if (old !== set.code) await rm(join(ROOT, 'decks', old), { recursive: true });
