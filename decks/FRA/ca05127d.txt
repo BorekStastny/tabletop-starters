@@ -1,0 +1,32 @@
+About
+Name FRA BG 7-1
+
+Deck
+1 Afterthought Sentry
+1 Bestial Incursion
+1 Fblthp, Impossibly Lost
+1 Fblthp, Knows the Way
+1 Ferocity of the Hunt
+1 Formidable Commons
+1 Hapatra, the Desert Fang
+1 Inspired Tethermage
+1 Jiang Yanggu, Never Alone
+1 Last Gasp
+1 Mabel, Bitter Recluse
+1 Marwyn, the Preserver
+1 Mindseeker Oculus
+1 Plan for All Outcomes
+1 Primal Witchstalker
+1 Restore with Empathy
+1 Room of Refuge
+1 Ruric Thar, Magecrusher
+1 Simulacrum Shaper
+2 Something Worth Saving
+1 Tam's Resistance
+1 Transformative Commons
+1 Void Extrapolator
+1 Vraska, the Cutting Glare
+1 Yoshimaru, Scrappy Stray
+5 Forest
+3 Island
+6 Swamp
