@@ -1,0 +1,32 @@
+About
+Name FRA BG 7-1
+
+Deck
+1 Apex Witchstalker
+1 Arcane Amphisbaena
+1 Archive Arbiter
+1 Bestial Incursion
+1 Blessed Ghoul
+1 Break Under Pressure
+1 Compel Brutality
+1 Formidable Commons
+1 Gallia, Tragic Host
+1 Hungering Puppetbeast
+1 Jiang Yanggu, Never Alone
+1 Konstrari Improviser
+1 Last Gasp
+1 Mabel, Bitter Recluse
+1 Medic's Kitesail
+1 Multiply by Zero
+1 Murmuring Volume
+1 Restore with Empathy
+1 Room of Refuge
+1 Ruric Thar, Magecrusher
+1 Silence the Echo
+1 Something Worth Saving
+1 Theoretical Necromancer
+1 Traxos, Scourge Eternal
+1 Vinelasher Adept
+1 Vraska, the Cutting Glare
+7 Forest
+7 Swamp
