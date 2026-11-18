@@ -1,0 +1,35 @@
+About
+Name FRA WG 7-0
+
+Deck
+1 Ajani Resolute
+1 Budding Insurgent
+1 Fatehold Annex
+1 Fatehold Chronologist
+1 Fateshaper Aspirant
+1 Fblthp, Knows the Way
+1 Generous Revival
+1 Hapatra, the Desert Fang
+1 Inspired Tethermage
+1 Jiang Yanggu, Never Alone
+1 Kindred Judgment
+1 Lyra, Archangel of Dawn
+1 Meticulous Commons
+1 Murmuring Volume
+1 Room of Refuge
+1 Sphinx of False Conclusions
+1 Sureshot Sower
+1 Surgical Precision
+1 Theorix Annex
+1 Transformative Commons
+2 Twisted Fates
+1 Vigorbloom Annex
+1 Vigorbloom Vanguard
+2 Vinelasher Adept
+1 Way of the Healer
+1 Way of the Paradox
+1 Way of the Wildspeaker
+5 Forest
+1 Island
+4 Plains
+1 Swamp
