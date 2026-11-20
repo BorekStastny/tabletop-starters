@@ -1,277 +1,277 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "set": "FRA",
  "setName": "Reality Fracture",
  "decks": [
   {
-   "id": "981c100e",
+   "id": "052c58ac",
    "name": "FRA BG 7-2",
    "colors": "BG",
    "record": "7-2",
-   "file": "decks/FRA/981c100e.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/7/9/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg?1789385967",
-   "card": "Carnivorous Cultivator // Enroot"
-  },
-  {
-   "id": "18e8d036",
-   "name": "FRA BG 7-2",
-   "colors": "BG",
-   "record": "7-2",
-   "file": "decks/FRA/18e8d036.txt",
+   "file": "decks/FRA/052c58ac.txt",
    "art": "https://cards.scryfall.io/art_crop/front/3/d/3db2da7a-8088-4117-916b-f9c905d1b45b.jpg?1789127646",
    "card": "Hungering Puppetbeast"
   },
   {
-   "id": "34932c95",
-   "name": "FRA BG 7-1",
+   "id": "8a5492a8",
+   "name": "FRA BG 7-2",
    "colors": "BG",
-   "record": "7-1",
-   "file": "decks/FRA/34932c95.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/2/b/2bb7a8eb-227f-410b-859f-750ef0aea2f0.jpg?1789644841",
-   "card": "Verdant Kraken"
-  },
-  {
-   "id": "6cefefec",
-   "name": "FRA BR 7-0",
-   "colors": "BR",
-   "record": "7-0",
-   "file": "decks/FRA/6cefefec.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/c/9/c985b0d1-25bd-4069-aab7-a566ff27a8f6.jpg?1789127990",
-   "card": "Gideon the Oathless"
-  },
-  {
-   "id": "46725e67",
-   "name": "FRA BR 7-2",
-   "colors": "BR",
    "record": "7-2",
-   "file": "decks/FRA/46725e67.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/c/4/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg?1788952080",
-   "card": "Overwrite the Multiverse"
+   "file": "decks/FRA/8a5492a8.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/b/1/b105511d-5022-4a84-b6ce-4bb433e93a62.jpg?1789644819",
+   "card": "Lich's Relic"
   },
   {
-   "id": "2ca778f9",
-   "name": "FRA BR 7-0",
-   "colors": "BR",
-   "record": "7-0",
-   "file": "decks/FRA/2ca778f9.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/4/0/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg?1788329325",
-   "card": "Chandra, Torch of Defiance"
-  },
-  {
-   "id": "82492b65",
-   "name": "FRA RG 7-1",
-   "colors": "RG",
-   "record": "7-1",
-   "file": "decks/FRA/82492b65.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/2/d/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg?1788329303",
-   "card": "Stingcaster Mage"
-  },
-  {
-   "id": "cb8bcf9c",
-   "name": "FRA RG 7-2",
-   "colors": "RG",
+   "id": "7df3b6d9",
+   "name": "FRA BG 7-2",
+   "colors": "BG",
    "record": "7-2",
-   "file": "decks/FRA/cb8bcf9c.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/1/d/1d535b5f-c916-4f16-89a7-9477578826d2.jpg?1788878290",
-   "card": "Ghalta the Unstoppable"
-  },
-  {
-   "id": "2d91e7cb",
-   "name": "FRA RG 7-1",
-   "colors": "RG",
-   "record": "7-1",
-   "file": "decks/FRA/2d91e7cb.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/8/f/8f827e50-0a08-4bc8-98b1-b26c9af15ef2.jpg?1789470818",
-   "card": "Curse-Marred Demon"
-  },
-  {
-   "id": "3e21d757",
-   "name": "FRA UB 7-1",
-   "colors": "UB",
-   "record": "7-1",
-   "file": "decks/FRA/3e21d757.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/0/8/0853bb80-8664-432a-8457-600139fd96d5.jpg?1788878145",
-   "card": "Diviner of Victory // Unwind History"
-  },
-  {
-   "id": "2c5aa879",
-   "name": "FRA UB 7-0",
-   "colors": "UB",
-   "record": "7-0",
-   "file": "decks/FRA/2c5aa879.txt",
+   "file": "decks/FRA/7df3b6d9.txt",
    "art": "https://cards.scryfall.io/art_crop/front/d/4/d48bfb8a-d135-45f3-be99-4694b4b9ab93.jpg?1788329269",
    "card": "Garruk, Veiled Butcher"
   },
   {
-   "id": "e4655628",
-   "name": "FRA UB 7-1",
-   "colors": "UB",
-   "record": "7-1",
-   "file": "decks/FRA/e4655628.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/3/a/3afdc75a-1bf5-4f2f-84eb-d82f77a095cd.jpg?1789127648",
-   "card": "Null Summoner"
-  },
-  {
-   "id": "6ac8977f",
-   "name": "FRA UG 7-2",
-   "colors": "UG",
+   "id": "32c29a26",
+   "name": "FRA BR 7-2",
+   "colors": "BR",
    "record": "7-2",
-   "file": "decks/FRA/6ac8977f.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/e/e/eed83302-dc2c-45f4-a4bd-af9da51edef5.jpg?1789358701",
-   "card": "Ruric Thar, Magecrusher"
+   "file": "decks/FRA/32c29a26.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/d/7/d71d250f-c0e0-44b2-877c-76f3bcab4f34.jpg?1789385887",
+   "card": "The Echoverse Fulcrum"
   },
   {
-   "id": "0da35ae7",
-   "name": "FRA UG 7-1",
-   "colors": "UG",
-   "record": "7-1",
-   "file": "decks/FRA/0da35ae7.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/a/5/a5183681-447b-4023-91f7-00e9338f4417.jpg?1789128032",
-   "card": "Lyra, Tolarian Archangel"
+   "id": "a37c9af9",
+   "name": "FRA BR 7-0",
+   "colors": "BR",
+   "record": "7-0",
+   "file": "decks/FRA/a37c9af9.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/d/f/df818900-ce5e-4b0d-a927-c975cbef7eda.jpg?1789128002",
+   "card": "Tetsuko Umezawa, Pursuer"
   },
   {
-   "id": "502efa58",
-   "name": "FRA UG 7-1",
-   "colors": "UG",
-   "record": "7-1",
-   "file": "decks/FRA/502efa58.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/9/4/94c290ce-252c-42b3-bcb0-c1ef621df566.jpg?1789470861",
-   "card": "Mind Meanderer"
-  },
-  {
-   "id": "2d654f44",
-   "name": "FRA UR 7-1",
-   "colors": "UR",
-   "record": "7-1",
-   "file": "decks/FRA/2d654f44.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/3/c/3ccf8f64-19bd-4fdf-b70a-30a042bacf2f.jpg?1789127528",
-   "card": "Face Yourself"
-  },
-  {
-   "id": "39806f2e",
-   "name": "FRA UR 7-2",
-   "colors": "UR",
+   "id": "813e94db",
+   "name": "FRA BR 7-2",
+   "colors": "BR",
    "record": "7-2",
-   "file": "decks/FRA/39806f2e.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/7/a/7a44581f-8fc4-457d-888a-1e211090ee7e.jpg?1789470870",
-   "card": "Frostbite Pyromental"
-  },
-  {
-   "id": "1a9f4698",
-   "name": "FRA UR 7-2",
-   "colors": "UR",
-   "record": "7-2",
-   "file": "decks/FRA/1a9f4698.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg?1788329242",
-   "card": "Chandra, Chill of Compliance"
-  },
-  {
-   "id": "712f63da",
-   "name": "FRA WB 7-2",
-   "colors": "WB",
-   "record": "7-2",
-   "file": "decks/FRA/712f63da.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/4/8/483fcc58-cc6e-4452-a696-7b38e117c837.jpg?1788329184",
-   "card": "Enlightened Confidant"
-  },
-  {
-   "id": "e9062c7a",
-   "name": "FRA WB 7-1",
-   "colors": "WB",
-   "record": "7-1",
-   "file": "decks/FRA/e9062c7a.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/a/8/a803dbe7-153a-4e92-ad4d-c2babebe003d.jpg?1790558815",
-   "card": "Vindictive Triumph"
-  },
-  {
-   "id": "5bb2eb06",
-   "name": "FRA WB 7-2",
-   "colors": "WB",
-   "record": "7-2",
-   "file": "decks/FRA/5bb2eb06.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/8/1/811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f.jpg?1789470807",
-   "card": "Rise of the Deathbringer"
-  },
-  {
-   "id": "12a65592",
-   "name": "FRA WG 7-2",
-   "colors": "WG",
-   "record": "7-2",
-   "file": "decks/FRA/12a65592.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.jpg?1789127693",
-   "card": "Lyra, Archangel of Dawn"
-  },
-  {
-   "id": "70c7e0e3",
-   "name": "FRA WG 7-2",
-   "colors": "WG",
-   "record": "7-2",
-   "file": "decks/FRA/70c7e0e3.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/6/8/686f3a25-305d-4f02-8972-eba7b8e9635f.jpg?1789470769",
-   "card": "Flickering Hound"
-  },
-  {
-   "id": "c018aae6",
-   "name": "FRA WG 7-2",
-   "colors": "WG",
-   "record": "7-2",
-   "file": "decks/FRA/c018aae6.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/3/5/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg?1788878108",
-   "card": "Repurposed Enforcer"
-  },
-  {
-   "id": "0f5560e7",
-   "name": "FRA WR 7-2",
-   "colors": "WR",
-   "record": "7-2",
-   "file": "decks/FRA/0f5560e7.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/4/4/4404d9d4-9cdd-4dad-a4f6-574d90db5052.jpg?1789127596",
-   "card": "Master of Barbs"
-  },
-  {
-   "id": "9483f66c",
-   "name": "FRA WR 7-2",
-   "colors": "WR",
-   "record": "7-2",
-   "file": "decks/FRA/9483f66c.txt",
+   "file": "decks/FRA/813e94db.txt",
    "art": "https://cards.scryfall.io/art_crop/front/b/c/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg?1788329317",
    "card": "Ajani Unrelenting"
   },
   {
-   "id": "588cf04b",
+   "id": "7b7198b1",
+   "name": "FRA RG 7-1",
+   "colors": "RG",
+   "record": "7-1",
+   "file": "decks/FRA/7b7198b1.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/1/1/112f8478-bd89-4a14-9721-8ab750613129.jpg?1789470842",
+   "card": "Draconic Visitor"
+  },
+  {
+   "id": "33ae3e6c",
+   "name": "FRA RG 7-2",
+   "colors": "RG",
+   "record": "7-2",
+   "file": "decks/FRA/33ae3e6c.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg?1789470711",
+   "card": "Craftwork Crusher"
+  },
+  {
+   "id": "4dea8cc5",
+   "name": "FRA RG 7-1",
+   "colors": "RG",
+   "record": "7-1",
+   "file": "decks/FRA/4dea8cc5.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/f/1/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg?1788878199",
+   "card": "Aerid Konstrari"
+  },
+  {
+   "id": "43c42a0c",
+   "name": "FRA UB 7-2",
+   "colors": "UB",
+   "record": "7-2",
+   "file": "decks/FRA/43c42a0c.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/a/7/a7ad622a-42ff-48fa-ae95-12e0a5bd9387.jpg?1788878220",
+   "card": "Uldaros Theorix"
+  },
+  {
+   "id": "7e4601cb",
+   "name": "FRA UB 7-0",
+   "colors": "UB",
+   "record": "7-0",
+   "file": "decks/FRA/7e4601cb.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/7/4/74087795-0b38-4fd2-9841-147583baca41.jpg?1790075861",
+   "card": "Jace, Reality Sculptor"
+  },
+  {
+   "id": "6854b93c",
+   "name": "FRA UB 7-2",
+   "colors": "UB",
+   "record": "7-2",
+   "file": "decks/FRA/6854b93c.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg?1788329273",
+   "card": "Liliana the Repentant"
+  },
+  {
+   "id": "0e31b53d",
+   "name": "FRA UG 7-2",
+   "colors": "UG",
+   "record": "7-2",
+   "file": "decks/FRA/0e31b53d.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/2/0/20bb8c55-4b0b-425f-8201-b54fa2fdde86.jpg?1788329228",
+   "card": "The Theorist, Jace Beleren"
+  },
+  {
+   "id": "42e0f816",
+   "name": "FRA UG 7-1",
+   "colors": "UG",
+   "record": "7-1",
+   "file": "decks/FRA/42e0f816.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/5/8/5838af68-66c3-4fe8-ab89-0a1721b0cfeb.jpg?1789729565",
+   "card": "Way of the Mind Sculptor"
+  },
+  {
+   "id": "7a9fefb3",
+   "name": "FRA UG 7-2",
+   "colors": "UG",
+   "record": "7-2",
+   "file": "decks/FRA/7a9fefb3.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/2/8/282588b9-3656-453b-aa25-2419e078ddc1.jpg?1788878150",
+   "card": "Jace's Machinations"
+  },
+  {
+   "id": "09cf0018",
+   "name": "FRA UR 7-2",
+   "colors": "UR",
+   "record": "7-2",
+   "file": "decks/FRA/09cf0018.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg?1789614867",
+   "card": "Archive Arbiter"
+  },
+  {
+   "id": "16ffcc25",
+   "name": "FRA UR 7-2",
+   "colors": "UR",
+   "record": "7-2",
+   "file": "decks/FRA/16ffcc25.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/3/c/3ccf8f64-19bd-4fdf-b70a-30a042bacf2f.jpg?1789127528",
+   "card": "Face Yourself"
+  },
+  {
+   "id": "0c2ec310",
+   "name": "FRA UR 7-2",
+   "colors": "UR",
+   "record": "7-2",
+   "file": "decks/FRA/0c2ec310.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/8/f/8f827e50-0a08-4bc8-98b1-b26c9af15ef2.jpg?1789470818",
+   "card": "Curse-Marred Demon"
+  },
+  {
+   "id": "6af31b49",
+   "name": "FRA WB 7-2",
+   "colors": "WB",
+   "record": "7-2",
+   "file": "decks/FRA/6af31b49.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/2/1/2185c08f-bb4d-49d5-8b6c-c629a48bb61c.jpg?1789556729",
+   "card": "Sanctum Lurker"
+  },
+  {
+   "id": "5b2d49ca",
+   "name": "FRA WB 7-1",
+   "colors": "WB",
+   "record": "7-1",
+   "file": "decks/FRA/5b2d49ca.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/1/b/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.jpg?1789644810",
+   "card": "Germinate Recruits"
+  },
+  {
+   "id": "ec81b88c",
+   "name": "FRA WB 7-2",
+   "colors": "WB",
+   "record": "7-2",
+   "file": "decks/FRA/ec81b88c.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/483fcc58-cc6e-4452-a696-7b38e117c837.jpg?1788329184",
+   "card": "Enlightened Confidant"
+  },
+  {
+   "id": "23e1315a",
+   "name": "FRA WG 7-2",
+   "colors": "WG",
+   "record": "7-2",
+   "file": "decks/FRA/23e1315a.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/1/e/1ef12dcf-df50-4da6-8c4c-e2937ba9698e.jpg?1789127651",
+   "card": "Solarium Sentry"
+  },
+  {
+   "id": "6f5b8ee9",
+   "name": "FRA WG 7-2",
+   "colors": "WG",
+   "record": "7-2",
+   "file": "decks/FRA/6f5b8ee9.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/a/5/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg?1788329189",
+   "card": "Ajani Resolute"
+  },
+  {
+   "id": "a8e35c61",
+   "name": "FRA WG 7-0",
+   "colors": "WG",
+   "record": "7-0",
+   "file": "decks/FRA/a8e35c61.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/7/0/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg?1788329194",
+   "card": "Liliana the Faultless"
+  },
+  {
+   "id": "2f18c936",
    "name": "FRA WR 7-2",
    "colors": "WR",
    "record": "7-2",
-   "file": "decks/FRA/588cf04b.txt",
+   "file": "decks/FRA/2f18c936.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/0/8/08657053-86f9-4c52-abf0-d9cdd443ae3b.jpg?1789127995",
+   "card": "Kiora of Fire and Ashes"
+  },
+  {
+   "id": "7abd950b",
+   "name": "FRA WR 7-2",
+   "colors": "WR",
+   "record": "7-2",
+   "file": "decks/FRA/7abd950b.txt",
    "art": "https://cards.scryfall.io/art_crop/front/b/a/ba920f23-f05c-410e-8516-c93abedf1d4d.jpg?1789729662",
    "card": "Samut, Hazoret's Champion"
   },
   {
-   "id": "648293fd",
+   "id": "5cb37b3c",
+   "name": "FRA WR 7-2",
+   "colors": "WR",
+   "record": "7-2",
+   "file": "decks/FRA/5cb37b3c.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/a/a/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg?1788878186",
+   "card": "Pompous Battlemage // Improvised Act"
+  },
+  {
+   "id": "0f0e8211",
    "name": "FRA WU 7-2",
    "colors": "WU",
    "record": "7-2",
-   "file": "decks/FRA/648293fd.txt",
+   "file": "decks/FRA/0f0e8211.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/3/5/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg?1788878108",
+   "card": "Repurposed Enforcer"
+  },
+  {
+   "id": "1075919a",
+   "name": "FRA WU 7-2",
+   "colors": "WU",
+   "record": "7-2",
+   "file": "decks/FRA/1075919a.txt",
+   "art": "https://cards.scryfall.io/art_crop/front/a/5/a5183681-447b-4023-91f7-00e9338f4417.jpg?1789128032",
+   "card": "Lyra, Tolarian Archangel"
+  },
+  {
+   "id": "6fdabd77",
+   "name": "FRA WU 7-2",
+   "colors": "WU",
+   "record": "7-2",
+   "file": "decks/FRA/6fdabd77.txt",
    "art": "https://cards.scryfall.io/art_crop/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.jpg?1789470776",
    "card": "Kindred Judgment"
-  },
-  {
-   "id": "7daf1590",
-   "name": "FRA WU 7-2",
-   "colors": "WU",
-   "record": "7-2",
-   "file": "decks/FRA/7daf1590.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/c/4/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg?1790746542",
-   "card": "Plan for All Outcomes"
-  },
-  {
-   "id": "72c930e3",
-   "name": "FRA WU 7-0",
-   "colors": "WU",
-   "record": "7-0",
-   "file": "decks/FRA/72c930e3.txt",
-   "art": "https://cards.scryfall.io/art_crop/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg?1789614867",
-   "card": "Archive Arbiter"
   }
  ]
 }
