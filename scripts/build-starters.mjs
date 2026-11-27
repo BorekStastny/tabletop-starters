@@ -15,7 +15,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const S3 = 'https://17lands-public.s3.amazonaws.com/analysis_data/game_data';
+const S3 = 'https://data.17landscapes.com/analysis_data/game_data'; // the host /api/public_datasets names; the old S3 bucket answers 403
 const MIN_WINS = 7;
 const MAX_LOSSES = 2;
 const MIN_WIN_RATE_BUCKET = 0.55; // the player's overall win rate, as 17Lands buckets it
